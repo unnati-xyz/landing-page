@@ -1,7 +1,27 @@
+.u-container {
+  margin-top: 100px;
+}
+
 .u-text-big {
   font-size: 80px;
 }
 
-.u-border-bottom {
+.u-border-bottom-dashed{
   border-bottom: 1px dashed #4E4E4E;
+  padding: 10px;
 }
+
+.u-border-bottom {
+  border-bottom: 1px solid #4E4E4E;
+  padding-bottom: 10px;
+}
+
+.u-border-top {
+  border-top: 1px solid #4E4E4E;
+  padding-top: 20px;
+}
+
+.u-row {
+  padding: 10px;
+}
+
