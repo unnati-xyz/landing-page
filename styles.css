@@ -1,10 +1,74 @@
-/*
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,400italic);
 body {
+  margin: 0 auto;
+  text-align: center;
   line-height: 25px;
+  background-color: #363636;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
 }
 
+.u-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.u-brand {
+  font-size: 70px;
+  font-weight: 100;
+  color: #F39C12;
+}
+
+.u-tagline {
+  font-size: 20px;
+}
+
+.col-offset-3 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.u-body {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.u-head {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+a {
+  color: #0CE3AC;
+}
+
+.u-border-dashed{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #4E4E4E;
+}
+
+.u-member {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.u-col {
+  margin: 10px;
+  line-height: 20px;
+}
+
+/*
 .u-lead {
   font-weight: 300;
 }
