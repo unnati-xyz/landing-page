@@ -1,3 +1,14 @@
+/*
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
+
+body {
+  line-height: 25px;
+}
+
+.u-lead {
+  font-weight: 300;
+}
+
 .u-container {
   margin-top: 100px;
 }
@@ -8,20 +19,18 @@
 
 .u-border-bottom-dashed{
   border-bottom: 1px dashed #4E4E4E;
-  padding: 10px;
 }
 
 .u-border-bottom {
   border-bottom: 1px solid #4E4E4E;
-  padding-bottom: 10px;
 }
 
 .u-border-top {
   border-top: 1px solid #4E4E4E;
-  padding-top: 20px;
 }
 
-.u-row {
-  padding: 10px;
+.u-text-container {
+  padding: 15px 0;
+  margin: 0;
 }
-
+*/
