@@ -22,6 +22,8 @@ body {
 
 .u-tagline {
   font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .col-offset-3 {
@@ -56,6 +58,8 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px dashed #4E4E4E;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .u-member {
