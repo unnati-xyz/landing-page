@@ -62,6 +62,14 @@ a {
   margin-right: 15%;
 }
 
+.u-border{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #4E4E4E;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .u-member {
   font-weight: 400;
   font-size: 20px;
