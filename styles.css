@@ -31,6 +31,11 @@ body {
   margin-right: 15%;
 }
 
+.col-offset-6 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -78,6 +83,12 @@ a {
 .u-col {
   margin: 10px;
   line-height: 20px;
+}
+
+.u-circle{
+  border-radius: 50%;
+  width: 80px;
+  margin-top: 15px;
 }
 
 /*
