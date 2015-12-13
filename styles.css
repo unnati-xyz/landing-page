@@ -57,6 +57,7 @@ body {
 
 a {
   color: #0CE3AC;
+  text-decoration: none;
 }
 
 .u-border-dashed{
@@ -73,6 +74,11 @@ a {
   border-bottom: 1px solid #4E4E4E;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.u-btn {
+  width: 150px;
+  height: 30px;
 }
 
 .u-member {
