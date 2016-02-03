@@ -34,7 +34,11 @@
     <![endif]-->
     <style>
       header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/classroom.jpg")
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/classroom.jpg");
+      }
+
+      .navbar-dark {
+        background-color: black;
       }
     </style>
 
@@ -52,7 +56,7 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-dark">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -91,7 +95,8 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header class="workshop-header">
+    <!--
+    <header class="workshop-header small-header">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Workshops @ Unnati</h1>
@@ -104,6 +109,7 @@
             </div>
         </div>
     </header>
+    -->
 
     <section class="bg-gray some-padding" id="workshop-list">
         <div class="container">
@@ -111,6 +117,7 @@
           <div class="row">
             <div class="col-md-12">
               <h2 class="text-center slightly-bigger">List of Workshops</h2>
+              <hr class="somepink">
             </div>
           </div>
 
@@ -122,7 +129,7 @@
               <img class="somepink-topi" width="100%" src="/img/art-ds.jpg" alt="">
             </div>
             <div class="col-md-5">
-              <h2>Art of Data Science</h2>
+              <h2>Introduction to Data Science in Python</h2>
               <hr class="somepink-full"/>
               <p> 
               Ever wondered what it takes to work in the field of Data Science? Wait no more,
@@ -134,7 +141,7 @@
               importantly you get to start doing "the sexiest job of 21st
               century (Harvard Business Review)".
               </p>
-              <a class="btn btn-somepink" href="/workshops/art-of-datascience.html">Read more &amp Join! <i class="fa fa-chevron-right"></i></a>
+              <a class="btn btn-somepink" href="/workshops/intro-to-datascience-in-py.html">Read more &amp Join! <i class="fa fa-chevron-right"></i></a>
             </div>
           </div>
 
