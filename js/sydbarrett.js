@@ -69,5 +69,7 @@ function pickOne(arr) {
 }
 
 $(function() {
-  $("#pf-song").html(pickOne(songs));
+  var songName = pickOne(songs);
+  var ytSearch = 'http://youtube.com/results?search_query='+songName+'+pink+floyd';
+  $('#pf-song').html('<a target="_blank" href="'+ytSearch+'">'+songName+'</a>');
 });
