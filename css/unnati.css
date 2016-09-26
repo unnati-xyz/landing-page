@@ -110,6 +110,11 @@ hr.separator {
   font-size: 18px;
 }
 
+.happy-clients {
+    width: 200px;
+    margin: 10px;
+}
+
 /* END our styles */
 
 /* Overrides of flatly theme */
