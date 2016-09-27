@@ -3,9 +3,12 @@
   display:none;
 }
 
+/*
 #name:hover:before {
   content: "उन्नति Data Labs";
 }
+*/
+
 /* END Brand hover */
 
 /* Our styles */
@@ -138,7 +141,8 @@ a:hover {
 }
 
 .navbar-default {
-  background-color: #ba1a1a;
+  /*background-color: #ba1a1a;*/
+  background-color: #0374BF;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -149,19 +153,19 @@ a:hover {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
   color: #fff;
-  background: #981515;
+  background: #2C3E50;
 }
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-  background: #981515;
+  background: #2C3E50;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-  background: #981515;
+  background: #2C3E50;
 }
 
 blockquote {
